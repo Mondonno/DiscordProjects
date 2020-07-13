@@ -1,6 +1,5 @@
 import discord
 
-
 client = discord.Client()
 
 @client.event
@@ -13,6 +12,6 @@ async def on_message(message):
         return
 
     if message.content.startswith('$hello'):
-        await message.channel.send('Hello!')
+        await message.channel.send('Hello! Fuck anime!')
 
-client.run('your token here')
+client.run('Njg4MzEyODYxOTI3Mjc2NTU0.XuXUng.fddFirQeBRzAL9D07LTw6D2VOnk')
